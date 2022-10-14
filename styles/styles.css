@@ -160,3 +160,135 @@ body {
     line-height: 40px;   
     text-decoration: none;
 }
+.main-inner {
+    color: #fff;
+    background-color: #82B3D3;
+    background-image: url(../images/background-catalog.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat; 
+}
+.inner-header-title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+}
+.breadcrumbs-link {
+    font-size: 16px;
+    line-height: 21px;
+}
+.catalog-filter-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+.catalog-filter-item {
+    font-size: 18px;
+    line-height: 23px;
+}
+.button-catalog-filter {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: #82B3D3;
+}
+.button-light {    
+    background: none;
+}
+.catalog-products {
+    color: #000;
+    background-color: #fff;
+}
+.catalog-products-find {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+.select-control {
+    color: #333;
+    font-size: 18px;
+    line-height: 21px;
+}
+.product-card-link {
+    color: inherit;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+}
+.product-card-name {
+    color: #333;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+.product-card-price {
+    color: #333;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+}
+.product-card-button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #756157;;
+}
+button.product-card-button {
+    background-color: #82B3D3;
+}
+.product-card-rating {
+    color: #333;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: #F2F2F2;
+}
+.pagination {
+    background-color: #ffffff;
+  }
+.pagination-item {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;    
+}
+.pagination-link {
+    color: #fff;
+    text-decoration: none;
+    background-color: #82B3D3;
+}
+.pagination-current {
+    color: #000;
+    background-color: #F2F2F2;
+}
+.pagination-ellipsis {
+    color: #000;
+    font-size: 22px;
+    line-height: 26px;
+    background-color: #fff;
+}
+.subscribe-inner {
+    color: #000;
+    text-align: center;
+    background-color: #fff;
+}
+.subscribe-inner-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.subscribe--inner-discription {
+    font-size: 22px;
+    line-height: 26px;
+}

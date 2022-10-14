@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Каталог</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
 	<header class="page-header">
@@ -111,8 +112,8 @@
         	</ul>
           </fieldset>
 
-          <button class="button" type="submit">Применить</button>
-          <button class="button" type="submit">Сбросить</button>
+          <button class="button button-catalog-filter" type="submit">Применить</button>
+          <button class="button button-catalog-filter button-light" type="submit">Сбросить</button>
         </form>
     	</section>
     	<section class="catalog-products">
@@ -195,13 +196,24 @@
           <li class="pagination-item">
             <a class="pagination-link" href="#">4</a>
             <li class="pagination-item">
-            <a class="pagination-link" href="#">...</a>          
+            <a class="pagination-link pagination-ellipsis" href="#">...</a>          
           </li>
           <li class="pagination-item">
             <a class="pagination-link" href="#">10</a>
           </li>          
         </ul>          
     	</section>
+      <section class="subscribe-inner">
+        <h2 class="subscribe-inner-title">Подпишитесь на рассылку</h2>
+        <p class="subscribe-inner-discription">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
+        <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label for="newsletter-email">Email</label>
+          <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
+          <button class="button newsletter-button" type="submit">
+            <span class="button-subscribe">Подписаться</span>
+          </button>
+        </form>
+      </section>
     </main>
     <footer class="page-footer">
         <section class="footer-social">
@@ -233,11 +245,7 @@
         <section class="footer-academy">
           <h2 class="visually-hidden">Академия</h2>
           <a class="htmlacademy-link" href="https://htmlacademy.ru/"><img src="images/icons/academy-logo.svg" width="114.9" height="32.9"  alt="Логотип HTML Academy"></a>
-        </section>
-        
-      </footer>
-
-
-	
+        </section>        
+      </footer>	
 </body>
 </html>
