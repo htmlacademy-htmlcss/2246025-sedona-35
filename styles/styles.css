@@ -14,16 +14,23 @@
 }
 
 body {
+    padding: 0;
+    margin: 0;
     font-family: "PT Sans", sans-serif;
     font-size: 16px;
     line-height: 24px;
     color: #000;
-    background: #fff;
+    background: #fff;    
 }
 
 .page-header {
     font-weight: 700;
     font-size: 20px;
+}
+.navigation-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 .navigation-link {
     color: inherit;
@@ -44,13 +51,21 @@ body {
     background-repeat: no-repeat;
     background-position: center bottom;
 }
+.visually-hidden {
+    padding: 0;
+    margin: 0;
+}
 .tagline{
+    padding: 0;
+    margin: 0;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
 }
 .reasons {
+    padding: 0;
+    margin: 0;
     font-size: 22px;
     line-height: 26px;
     color: #333;
@@ -69,6 +84,11 @@ body {
 .about-table-main {
     font-size: 18px;
     line-height: 21px;
+}
+.about-list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 .about-item {
     text-align: center;
@@ -95,6 +115,9 @@ body {
     background-color: #fff;
 }
 .search-list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
     text-align: center;
 }
 .search-title {
@@ -127,13 +150,17 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
-.subscribe-title {    
+.subscribe-title {   
+    padding: 0;
+    margin: 0;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
 }
 .subscribe-discription {
+    padding: 0;
+    margin: 0;
     font-size: 22px;
     line-height: 26px;
 }
@@ -153,6 +180,11 @@ body {
 .page-footer {
     text-align: center;
 }
+.footer-social-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
 .footer-contacts-phone {
     color: #000;
     font-style: normal;
@@ -168,13 +200,24 @@ body {
     background-repeat: no-repeat; 
 }
 .inner-header-title {
+    padding: 0;
+    margin: 0;
     font-weight: 700;
     font-size: 60px;
     line-height: 78px;
 }
+.breadcrumbs {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
 .breadcrumbs-link {
     font-size: 16px;
     line-height: 21px;
+}
+.catalog-filter-group {
+    padding: 0;
+    margin: 0;
 }
 .catalog-filter-title {
     font-weight: 700;
@@ -182,11 +225,18 @@ body {
     line-height: 24px;
     text-transform: capitalize;
 }
+.catalog-filter-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
 .catalog-filter-item {
     font-size: 18px;
     line-height: 23px;
 }
 .button-catalog-filter {
+    padding: 0;
+    margin: 0;    
     color: #fff;
     font-weight: 700;
     font-size: 16px;
@@ -202,6 +252,8 @@ body {
     background-color: #fff;
 }
 .catalog-products-find {
+    padding: 0;
+    margin: 0;    
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
@@ -211,6 +263,11 @@ body {
     color: #333;
     font-size: 18px;
     line-height: 21px;
+}
+.product-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 .product-card-link {
     color: inherit;
@@ -246,6 +303,8 @@ button.product-card-button {
     background-color: #82B3D3;
 }
 .product-card-rating {
+    padding: 0;
+    margin: 0;  
     color: #333;
     font-size: 16px;
     line-height: 20px;
@@ -253,6 +312,9 @@ button.product-card-button {
     background-color: #F2F2F2;
 }
 .pagination {
+    padding: 0;
+    margin: 0;
+    list-style: none;
     background-color: #ffffff;
   }
 .pagination-item {
@@ -282,13 +344,17 @@ button.product-card-button {
     background-color: #fff;
 }
 .subscribe-inner-title {
+    padding: 0;
+    margin: 0;    
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
 }
 
-.subscribe--inner-discription {
+.subscribe-inner-discription {
+    padding: 0;
+    margin: 0;    
     font-size: 22px;
     line-height: 26px;
 }
