@@ -1,0 +1,493 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    background: #fff;
+}
+
+.page-conteiner {
+    margin: auto;
+    width: 1200px;
+}
+
+.page-header {
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    margin: 0 auto;
+    width: 1060px;
+}
+
+.navigation {
+    display: flex;
+    margin: 0 auto;
+    width: 876px;
+    margin-right: 0px;
+}
+
+.navigation-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 440px;
+}
+
+.navigation-user {
+    max-width: 360px;
+    margin-left: auto;
+}
+
+.navigation-link {
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+}
+
+.main-conteiner {
+    flex-grow: 1;
+}
+
+.page-container {
+    margin: 0 auto;
+}
+
+.main-index {
+    color: #000;
+    background-color: #fff;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.companies {
+    text-align: center;
+    background-image: url("../images/index-background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.background-bottom {
+    background-position: bottom;
+}
+
+.visually-hidden {
+    padding: 0;
+    margin: 0;
+}
+
+.main-tagline {
+    text-align: center;
+}
+
+.tagline {
+    padding: 0;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    width: 620px;
+}
+
+.reasons {
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333;
+}
+
+.about-table-header {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    padding: 0 112px;
+}
+
+.about-table-main {
+    font-size: 18px;
+    line-height: 21px;
+    padding: 0 85px;
+}
+
+.about-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.about-item {
+    width: 400px;
+    text-align: center;
+    background-color: #83b3d31f;
+}
+
+.about-iteam-title {
+    display: flex;
+    width: 1200px;
+    color: #F2F2F2;
+    background-color: #82B3D3;
+}
+
+.conteiner-about-iteam {
+    margin: auto;
+}
+
+.about-title {
+    color: #000;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 113px;
+}
+
+.about-discription {
+    color: #333;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.about-item-road {
+    background-color: #83b3d333;
+}
+
+.about-item-food {
+    background-color: #fff;
+}
+
+.search {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.search-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.search-discription {
+    color: #333;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    width: 592px;
+}
+
+.button {
+    text-decoration: none;
+}
+
+.button-search {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    background: #756157;
+}
+
+.subscribe {
+    color: #fff;
+    text-align: center;
+    background-color: #82B3D3;
+    background-image: url(../images/subscribe.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.subscribe-title {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.subscribe-discription {
+    padding: 0;
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 26px;
+    width: 475px;
+}
+
+.field {
+    color: #000;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.newsletter-button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    background-color: #82B3D3;
+}
+
+.page-footer {
+    text-align: center;
+}
+
+.page-footer-conteiner {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 1060px;
+}
+
+.footer-social-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    max-width: 150px;
+}
+
+.footer-contacts-phone {
+    color: #000;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.main-inner {
+    color: #fff;
+    background-color: #82B3D3;
+    background-image: url(../images/background-catalog.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.inner-header-title {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+}
+
+.breadcrumbs {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.breadcrumbs-link {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.catalog-filter-group {
+    padding: 0;
+    margin: 0;
+}
+
+.catalog-filter-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.catalog-filter-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.catalog-filter-item {
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.button-catalog-filter {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: #82B3D3;
+}
+
+.button-light {
+    background: none;
+}
+
+.catalog-products {
+    color: #000;
+    background-color: #fff;
+}
+
+.catalog-products-find {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.select-control {
+    color: #333;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.product-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.product-card-link {
+    color: inherit;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.product-card-name {
+    color: #333;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+.product-card-price {
+    color: #333;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+}
+
+.product-card-button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #756157;
+    ;
+}
+
+button.product-card-button {
+    background-color: #82B3D3;
+}
+
+.product-card-rating {
+    padding: 0;
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: #F2F2F2;
+}
+
+.pagination {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: #ffffff;
+}
+
+.pagination-item {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.pagination-link {
+    color: #fff;
+    text-decoration: none;
+    background-color: #82B3D3;
+}
+
+.pagination-current {
+    color: #000;
+    background-color: #F2F2F2;
+}
+
+.pagination-ellipsis {
+    color: #000;
+    font-size: 22px;
+    line-height: 26px;
+    background-color: #fff;
+}
+
+.subscribe-inner {
+    color: #000;
+    text-align: center;
+    background-color: #fff;
+}
+
+.subscribe-inner-title {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.subscribe-inner-discription {
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+    line-height: 26px;
+}
