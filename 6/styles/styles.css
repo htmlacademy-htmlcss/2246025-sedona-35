@@ -1,0 +1,619 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    background: #fff;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.page-conteiner {
+    margin: auto;
+    width: 1200px;
+}
+
+.page-header {
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    margin: 0 auto;
+    width: 1060px;
+}
+
+.navigation {
+    display: flex;
+    margin: 0 auto;
+    width: 876px;
+    margin-right: 0px;
+}
+
+.navigation-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 440px;
+}
+
+.navigation-user {
+    max-width: 360px;
+    margin-left: auto;
+}
+
+.navigation-link {
+    display: block;
+    flex-wrap: wrap;
+    padding: 20px 16px;
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navigation-user .navigation-link {
+    min-width: 20px;
+    min-height: 20px;
+}
+
+.main-conteiner {
+    flex-grow: 1;
+}
+
+.page-container {
+    margin: 0 auto;
+}
+
+.main-index {
+    color: #000;
+    background-color: #fff;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.companies {
+    padding-top: 51px;
+    text-align: center;
+    background-image: url("../images/index-background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-logo {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+.background-bottom {
+    background-position: bottom;
+}
+
+.visually-hidden {
+    padding: 0;
+    margin: 0;
+}
+
+.main-tagline {
+    text-align: center;
+    padding-top: 69px;
+    margin-bottom: 90px;
+}
+
+.tagline {
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    width: 620px;
+}
+
+.reasons {
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333;
+}
+
+.about-table-header {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    padding: 0 112px;
+    margin-bottom: 62px;
+    padding-top: 92px;
+}
+
+.about-table-main {
+    font-size: 18px;
+    line-height: 21px;
+    padding: 0 85px;
+    margin-bottom: 111px;
+}
+
+.about-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.about-item {
+    width: 400px;
+    max-height: 384px;
+    text-align: center;
+    background-color: #83b3d31f;
+}
+
+.about-iteam-title {
+    display: flex;
+    width: 1200px;
+    color: #F2F2F2;
+    background-color: #82B3D3;
+}
+
+.conteiner-about-iteam {
+    margin: auto;
+    max-height: 384px;
+}
+
+.about-title {
+    color: #000;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 113px;
+    padding-top: 103px;
+    margin-bottom: 62px;
+}
+
+.about-title-item {
+    margin-bottom: 30px;
+}
+
+.about-discription {
+    color: #333;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 121px;
+}
+
+.about-discription-item {
+    margin-bottom: 81px;
+}
+
+.about-item-road {
+    background-color: #83b3d333;
+}
+
+.about-item-food {
+    background-color: #fff;
+}
+
+.search {
+    padding: 0;
+    padding-top: 91px;
+    padding-bottom: 96px;
+    margin: 0;
+    text-align: center;
+}
+
+.search-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.search-discription {
+    color: #333;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    width: 592px;
+    margin-bottom: 54px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 8px 50px;
+}
+
+.button-search {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    background: #756157;
+}
+
+.subscribe {
+    padding-top: 96px;
+    padding-bottom: 104px;
+    color: #fff;
+    text-align: center;
+    background-color: #82B3D3;
+    background-image: url(../images/subscribe.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.subscribe-title {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.subscribe-discription {
+    padding: 0;
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 26px;
+    width: 475px;
+    margin-bottom: 54px;
+}
+
+.field {
+    color: #000;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.newsletter-button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    background-color: #82B3D3;
+}
+
+.page-footer {
+    text-align: center;
+}
+
+.page-footer-conteiner {
+    display: flex;
+    padding-top: 45px;
+    padding-bottom: 35px;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 1060px;
+}
+
+.footer-social-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    max-width: 150px;
+}
+
+.footer-social-item {
+    width: 47px;
+    height: 40px;
+}
+
+.footer-contacts-phone {
+    color: #000;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.main-inner {
+    padding-top: 35px;
+    padding-left: 70px;
+    color: #fff;
+    background-color: #82B3D3;
+    background-image: url(../images/background-catalog.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.inner-header-title {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+}
+
+.breadcrumbs {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.breadcrumbs-link {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.catalog-filter {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+    padding-right: 70px;
+}
+
+.catalog-filter-group {
+    padding: 0;
+    margin: 0;
+}
+
+.catalog-filter-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin-bottom: 32px;
+}
+
+.catalog-filter-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.catalog-filter-item {
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 16px;
+}
+
+.catalog-filter-item:last-child {
+    margin-bottom: 0;
+}
+
+.filter-group-button {
+    display: flex;
+    flex-direction: column;
+    padding-top: 56px;
+}
+
+.button-catalog-filter {
+    margin: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: #82B3D3;
+}
+
+.filter-group-button .button-light {
+    margin-top: 40px;
+    background: none;
+}
+
+.catalog-products {
+    display: flex;
+    text-align: center;
+    padding-left: 70px;
+    color: #000;
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+
+.catalog-products .button {
+    width: 48px;
+    height: 48px;
+    background-color: #000;
+    margin-right: 8px;
+    padding: 0px;
+}
+
+.catalog-products .button:last-child {
+    margin-right: 0;
+}
+
+.catalog-products-find {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin-right: 200px;
+}
+
+.select-control {
+    color: #333;
+    font-size: 18px;
+    line-height: 21px;
+    margin-right: 70px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.product-card {
+    margin: 20px;
+    max-width: 340px;
+}
+
+.product-card-link {
+    color: inherit;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.product-card-name {
+    color: #333;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+.product-card-price {
+    color: #333;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+}
+
+.product-card-button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #756157;
+    ;
+}
+
+button.product-card-button {
+    background-color: #82B3D3;
+}
+
+.product-card-rating {
+    padding: 0;
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: #F2F2F2;
+}
+
+.pagination {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-left: 70px;
+    list-style: none;
+    background-color: #ffffff;
+}
+
+.pagination-item {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.pagination-item:not(:last-child) {
+    margin-right: 8px;
+}
+
+.pagination-link {
+    display: block;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    padding: 12px 24px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #82B3D3;
+    border-radius: 4px;
+
+}
+
+.pagination-link:last-child {
+    padding: 12px 19px;
+}
+
+.pagination-current {
+    color: #000;
+    background-color: #F2F2F2;
+}
+
+.pagination-ellipsis {
+    color: #000;
+    font-size: 22px;
+    line-height: 26px;
+    background-color: #fff;
+}
+
+.subscribe-inner {
+    color: #000;
+    text-align: center;
+    background-color: #fff;
+}
+
+.subscribe-inner-title {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.subscribe-inner-discription {
+    padding: 0;
+    margin: auto;
+    font-size: 22px;
+    line-height: 26px;
+}
