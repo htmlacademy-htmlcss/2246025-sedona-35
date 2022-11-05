@@ -178,7 +178,7 @@ body {
 }
 
 .companies {
-    padding-top: 69px;
+    padding-top: 53px;
     text-align: center;
     background-image: url("../images/index-background.jpg");
     background-size: 100% auto;
@@ -304,6 +304,9 @@ body {
 }
 
 .about-title-item {
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
     margin-bottom: 30px;
 }
 
