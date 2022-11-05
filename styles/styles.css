@@ -47,6 +47,11 @@ body {
     width: 1200px;
 }
 
+.main-header-logo {
+    position: absolute;
+    z-index: 2;
+}
+
 .page-header {
     font-weight: 700;
     font-size: 20px;
