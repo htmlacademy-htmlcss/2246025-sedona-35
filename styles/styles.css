@@ -50,21 +50,23 @@ body {
 .main-header-logo {
     position: absolute;
     z-index: 2;
+    margin-left: 70px;
 }
 
 .page-header {
     font-weight: 700;
     font-size: 20px;
     display: flex;
-    margin: 0 auto;
+    margin: 0;
     width: 1060px;
 }
 
 .navigation {
     display: flex;
+    justify-content: space-between;
+    width: 892px;
     margin: 0 auto;
-    width: 876px;
-    margin-right: 0px;
+    margin-left: 238px;
 }
 
 .navigation-list {
@@ -75,9 +77,12 @@ body {
     width: 440px;
 }
 
+.navigation-list:last-child {
+    justify-content: end;
+}
+
 .navigation-user {
     max-width: 360px;
-    margin-left: auto;
 }
 
 .navigation-link {
@@ -129,6 +134,7 @@ body {
     border-radius: 4px;
     display: inline-block;
     margin-top: 14px;
+    margin-left: 20px;
 }
 
 .button-link:hover {
