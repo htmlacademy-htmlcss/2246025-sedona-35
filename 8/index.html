@@ -10,10 +10,10 @@
 
 <body>
   <div class="page-conteiner">
-    <header class="page-header">
-      <a class="main-header-logo">
-        <img src="images/icons/logo.svg" width="140" height="70" alt="Логотип сайта городка Седона">
-      </a>
+    <a class="main-header-logo">
+      <img src="images/icons/logo.svg" width="140" height="76" alt="Логотип сайта городка Седона">
+    </a>
+    <header class="page-header" data-test="header">
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -57,9 +57,9 @@
       </nav>
     </header>
 
-    <main class="main-conteiner main-index">
+    <main class="main-conteiner main-index" data-test="main">
       <div class="page-container">
-        <section class="companies">
+        <section class="companies" data-test="hero">
           <h1 class="visually-hidden">Седона-небольшой городок в Аризоне</h1>
           <img class="main-logo" src="images/welcome.svg" width="458" height="352"
             alt="Welcome to the gorgeous Sedona because the Grand Canyon sucks">
@@ -70,7 +70,7 @@
             заслуживающий большего!</p>
           <p class="reasons">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         </section>
-        <section class="about">
+        <section class="about" data-test="advantages">
           <h2 class="visually-hidden">О нас</h2>
           <ul class="about-list">
             <li class="about-item about-iteam-title">
@@ -140,7 +140,7 @@
             </li>
           </ul>
         </section>
-        <section class="search">
+        <section class="search" data-test="search">
           <h2 class="visually-hidden">Поиск</h2>
           <p class="search-title">Заинтересовались?</p>
           <p class="search-discription">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения
@@ -151,8 +151,8 @@
         </section>
       </div>
     </main>
-    <footer class="page-footer">
-      <section class="subscribe">
+    <footer class="page-footer" data-test="footer">
+      <section class="subscribe" data-test="subscribe">
         <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
         <p class="subscribe-discription">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">

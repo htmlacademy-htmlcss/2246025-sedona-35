@@ -10,9 +10,9 @@
 
 <body>
   <div class="page-conteiner">
-    <header class="page-header">
+    <header class="page-header" data-test="header">
       <a class="main-header-logo" href="index.html">
-        <img src="images/icons/logo.svg" width="140" height="70" alt="Логотип сайта городка Седона">
+        <img src="images/icons/logo.svg" width="140" height="76" alt="Логотип сайта городка Седона">
       </a>
       <nav class="navigation">
         <ul class="navigation-list">
@@ -58,7 +58,7 @@
       </nav>
     </header>
 
-    <main class="main-conteiner">
+    <main class="main-conteiner" data-test="main">
       <div class="page-container">
         <section class="main-inner">
           <header class="inner-header">
@@ -75,7 +75,7 @@
               </li>
             </ul>
           </header>
-          <section class="catalog-search">
+          <section class="catalog-search" data-test="filter">
             <h2 class="visually-hidden" hidden>Поиск гостиницы</h2>
             <div class="catalog-search-conteiner">
               <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
@@ -186,7 +186,7 @@
             </li>
           </ul>
         </section>
-        <ul class="product-list">
+        <ul class="product-list" data-test="catalog">
           <li class="product-card">
             <a class="product-card-link" href="product.html">
               <img class="product-card-image" src="images/catalog/hotel-1.jpg" width="300" height="212"
@@ -262,8 +262,8 @@
         </section>
       </div>
     </main>
-    <footer class="page-footer">
-      <section class="subscribe-inner">
+    <footer class="page-footer" data-test="footer">
+      <section class="subscribe-inner" data-test="subscribe">
         <h2 class="subscribe-title subscribe-inner-title">Подпишитесь на рассылку</h2>
         <p class="subscribe-discription subscribe-inner-discription">Только полезная информация и никакого спама,
           честное бойскаутское!</p>

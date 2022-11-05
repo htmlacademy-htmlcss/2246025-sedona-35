@@ -47,19 +47,25 @@ body {
     width: 1200px;
 }
 
+.main-header-logo {
+    position: absolute;
+    z-index: 2;
+    margin-left: 70px;
+}
+
 .page-header {
     font-weight: 700;
     font-size: 20px;
     display: flex;
-    margin: 0 auto;
+    margin: 0;
     width: 1060px;
 }
 
 .navigation {
     display: flex;
+    justify-content: space-between;
     margin: 0 auto;
-    width: 876px;
-    margin-right: 0px;
+    margin-left: 238px;
 }
 
 .navigation-list {
@@ -70,9 +76,13 @@ body {
     width: 440px;
 }
 
+.navigation-list:last-child {
+    margin-left: 100px;
+    justify-content: end;
+}
+
 .navigation-user {
     max-width: 360px;
-    margin-left: auto;
 }
 
 .navigation-link {
@@ -115,6 +125,9 @@ body {
 }
 
 .button-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
     padding: 8px 34px;
     background-color: #756157;
     text-transform: uppercase;
@@ -124,6 +137,7 @@ body {
     border-radius: 4px;
     display: inline-block;
     margin-top: 14px;
+    margin-left: 20px;
 }
 
 .button-link:hover {
@@ -164,7 +178,7 @@ body {
 }
 
 .companies {
-    padding-top: 51px;
+    padding-top: 53px;
     text-align: center;
     background-image: url("../images/index-background.jpg");
     background-size: 100% auto;
@@ -277,7 +291,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     padding: 0 113px;
-    padding-top: 30px;
+    padding-top: 103px;
     margin-bottom: 30px;
 }
 
@@ -290,6 +304,9 @@ body {
 }
 
 .about-title-item {
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
     margin-bottom: 30px;
 }
 
