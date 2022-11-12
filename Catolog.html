@@ -138,11 +138,16 @@
                   <legend class="catalog-filter-title">Стоимость, ₽:</legend>
                   <div class="range-wrapper-inputs">
                     <label class="catalog-filter-label">
-                      <input class="range-input" placeholder="от" type="number" value="0" name="min-price">
+                      <div class="range-input-tag">
+                        <input class="range-input" type="number" value="0" name="min-price">
+                        <span class="input-tag">от</span>
+                      </div>
                     </label>
                     <label class="catalog-filter-label">
-                      <input class="range-input" placeholder="до" type="number" value="9000" name="max-price"
-                        style="width: 37px">
+                      <div class="range-input-tag">
+                        <input class="range-input" type="number" value="9000" name="max-price" style="width: 37px">
+                        <span class="input-tag">до</span>
+                      </div>
                     </label>
                   </div>
                   <div class="range">
@@ -213,13 +218,17 @@
             <a class="product-card-link" href="product.html">
               <img class="product-card-image" src="images/catalog/hotel-1.jpg" width="300" height="212"
                 alt="Amara Resort & Spa">
-              <h3 class="product-card-title">Amara Resort & Spa</h3>
+              <h3 class="product-card-title">
+                Amara Resort & Spa
+              </h3>
             </a>
             <span class="product-card-name">Гостиница</span>
             <span class="product-card-price">От 4000 ₽</span>
             <a class="product-card-button button" href="#">подробнее</a>
             <button class="product-card-button button" type="submit">в избранное</button>
-            <span class="star">&#9733; &#9733; &#9733; &#9733; </span>
+            <div class="stars stars-four">
+              <span class="visually-hidden">Класс звездности отеля-четыре</span>
+            </div>
             <p class="product-card-rating">Рейтинг: 8,5</p>
           </li>
           <li class="product-card">
@@ -232,7 +241,9 @@
             <span class="product-card-price">От 5000 ₽</span>
             <a class="product-card-button button" href="#">подробнее</a>
             <button class="product-button-green button" type="submit">в избранное</button>
-            <span class="star">&#9733; &#9733; &#9733; &#9733;</span>
+            <div class="stars stars-four">
+              <span class="visually-hidden">Класс звездности отеля-четыре</span>
+            </div>
             <p class="product-card-rating">Рейтинг: 9,2</p>
           </li>
           <li class="product-card">
@@ -245,7 +256,9 @@
             <span class="product-card-price">От 2500 ₽</span>
             <a class="product-card-button button" href="#">подробнее</a>
             <button class="product-card-button button" type="submit">в избранное</button>
-            <span class="star">&#9733; &#9733; &#9733;</span>
+            <div class="stars stars-three">
+              <span class="visually-hidden">Класс звездности отеля-три</span>
+            </div>
             <p class="product-card-rating">Рейтинг: 6,9</p>
           </li>
           <li class="product-card">
@@ -258,7 +271,9 @@
             <span class="product-card-price">От 1500 ₽</span>
             <a class="product-card-button button" href="#">подробнее</a>
             <button class="product-card-button button" type="submit">в избранное</button>
-            <span class="star">&#9733; &#9733;</span>
+            <div class="stars stars-two">
+              <span class="visually-hidden">Класс звездности отеля-два</span>
+            </div>
             <p class="product-card-rating">Рейтинг: 5,0</p>
           </li>
         </ul>
@@ -291,11 +306,13 @@
           честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label for="newsletter-email" class="visually-hidden">Email</label>
-          <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email"
-            required>
-          <button class="button newsletter-button" type="submit">
-            <span class="button-subscribe">Подписаться</span>
-          </button>
+          <div class="email-group">
+            <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email"
+              required>
+            <button class="button newsletter-button" type="submit">
+              <span class="button-subscribe">Подписаться</span>
+            </button>
+          </div>
         </form>
       </section>
       <div class="page-footer-conteiner">
