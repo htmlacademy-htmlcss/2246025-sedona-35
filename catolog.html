@@ -9,10 +9,10 @@
 </head>
 
 <body>
-  <div class="page-conteiner">
+  <div class="page-container">
     <header class="page-header" data-test="header">
       <a class="main-header-logo" href="index.html">
-        <img src="images/icons/logo.svg" width="140" height="76" alt="Логотип сайта городка Седона.">
+        <img src="images/icons/logo.svg" width="140" height="70" alt="Логотип сайта городка Седона.">
       </a>
       <nav class="navigation">
         <ul class="navigation-list">
@@ -20,7 +20,7 @@
             <a class="navigation-link" href="#">Главная</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="about.html">О седоне</a>
+            <a class="navigation-link" href="about.html">О Седоне</a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link navigation-link-current" href="catolog.html">Гостиницы</a>
@@ -58,7 +58,7 @@
       </nav>
     </header>
 
-    <main class="main-conteiner" data-test="main">
+    <main class="main-container" data-test="main">
       <div class="page-container">
         <section class="main-inner">
           <header class="inner-header">
@@ -77,7 +77,7 @@
           </header>
           <section class="catalog-search" data-test="filter">
             <h2 class="visually-hidden" hidden>Поиск гостиницы</h2>
-            <div class="catalog-search-conteiner">
+            <div class="catalog-search-container">
               <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
                 <fieldset class="catalog-filter-group">
                   <legend class="catalog-filter-title">Инфраструктура:</legend>
@@ -139,25 +139,21 @@
                   <legend class="catalog-filter-title">Стоимость, ₽:</legend>
                   <div class="range-wrapper-inputs">
                     <label class="catalog-filter-label">
-                      <div class="range-input-tag">
-                        <input class="range-input" type="number" value="0" name="min-price">
-                        <span class="input-tag">от</span>
-                      </div>
+                      <input class="range-input" type="number" value="0" name="min-price">
+                      <span class="input-tag">от</span>
                     </label>
                     <label class="catalog-filter-label">
-                      <div class="range-input-tag">
-                        <input class="range-input" type="number" value="9000" name="max-price" style="width: 37px">
-                        <span class="input-tag">до</span>
-                      </div>
+                      <input class="range-input" type="number" value="9000" name="max-price" style="width: 46px">
+                      <span class="input-tag">до</span>
                     </label>
                   </div>
                   <div class="range">
                     <div class="range-scale">
                       <div class="range-bar" style="left: 10px; width: 207px">
-                        <button class="range-toggle toggle-min">
+                        <button class="range-toggle toggle-min" type="button">
                           <span class="visually-hidden">Изменить минимальную цену.</span>
                         </button>
-                        <button class="range-toggle toggle-max">
+                        <button class="range-toggle toggle-max" type="button">
                           <span class="visually-hidden">Изменить максимальную цену.</span>
                         </button>
                       </div>
@@ -166,13 +162,14 @@
                 </fieldset>
                 <div class="filter-group-button">
                   <button class="button button-catalog-filter" type="submit">Применить</button>
-                  <button class="button button-catalog-filter button-light" type="submit">Сбросить</button>
+                  <button class="button button-catalog-filter button-light" type="reset">Сбросить</button>
                 </div>
               </form>
             </div>
           </section>
         </section>
         <section class="catalog-products">
+          <h2 class="visually-hidden">Список гостиниц</h2>
           <p class="catalog-products-find">Найдено гостиниц:
             <b>38</b>
           </p>
@@ -297,13 +294,12 @@
             <a class="pagination-link" href="#">10</a>
           </li>
         </ul>
-        </section>
       </div>
     </main>
     <footer class="page-footer" data-test="footer">
       <section class="subscribe-inner" data-test="subscribe">
         <h2 class="subscribe-title subscribe-inner-title">Подпишитесь на рассылку</h2>
-        <p class="subscribe-discription subscribe-inner-discription">Только полезная информация и никакого спама,
+        <p class="subscribe-description subscribe-inner-description">Только полезная информация и никакого спама,
           честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label for="newsletter-email" class="visually-hidden">Email</label>
@@ -316,7 +312,7 @@
           </div>
         </form>
       </section>
-      <div class="page-footer-conteiner">
+      <div class="page-footer-container">
         <section class="footer-social">
           <h2 class="visually-hidden">Давайте дружить</h2>
           <ul class="footer-social-list">
