@@ -99,13 +99,13 @@ body {
     text-align: center;
 }
 
-.navigation-user .navigation-item:first-child a {
+.navigation-link-search {
     left: -5px;
     top: 4px;
     padding: 20px 12px;
 }
 
-.navigation-user .navigation-item:nth-child(2) a {
+.navigation-link-favorite {
     left: -5px;
     top: 4px;
     padding: 20px 12px;
@@ -862,7 +862,7 @@ body {
     width: 46px;
     padding: 12px 20px;
     padding-right: 77px;
-    font-family: 'PT Sans';
+    font-family: 'PT Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -883,7 +883,7 @@ body {
 }
 
 
-.range-wrapper-inputs label:last-child .range-input {
+.range-input-max {
     border-radius: 0px 4px 4px 0px;
 }
 
@@ -963,7 +963,7 @@ body {
     line-height: 21px;
     padding: 14px 20px;
     padding-right: 94px;
-    margin-right: auto;
+    margin-right: 70px;
     border: 2px solid #E5E5E5;
     border-radius: 4px;
     background-image: url("../images/icons/select-arrow.svg");
@@ -1040,7 +1040,7 @@ body {
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
-    margin-right: 200px;
+    margin-right: auto;
 }
 
 /*.select-control {
@@ -1214,7 +1214,7 @@ button.product-card-button:active {
 
 .pagination-item {
     color: #fff;
-    font-family: 'PT Sans';
+    font-family: 'PT Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -1225,17 +1225,41 @@ button.product-card-button:active {
     margin-right: 8px;
 }
 
-.pagination li:not(:nth-child(4n+1)) .pagination-link:hover {
+.pagination-link:hover {
     background: #68A2CA;
 }
 
-.pagination li:not(:nth-child(4n+1)) .pagination-link:focus {
+.pagination-ellipsis:hover {
+    background: none;
+}
+
+.pagination-current:hover {
+    background: #F2F2F2;
+}
+
+.pagination-link:focus {
     background: #68A2CA;
 }
 
-.pagination li:not(:nth-child(4n+1)) .pagination-link:active {
+.pagination-ellipsis:focus {
+    background: none;
+}
+
+.pagination-current:focus {
+    background: #F2F2F2;
+}
+
+.pagination-link:active {
     color: #ffffff4d;
     background: #82B3D3;
+}
+
+.pagination-ellipsis:active {
+    background: none;
+}
+
+.pagination-current:active {
+    background: #F2F2F2;
 }
 
 .pagination-link {
@@ -1251,7 +1275,7 @@ button.product-card-button:active {
 
 }
 
-.pagination li:nth-child(6) .pagination-link {
+.pagination-link-last {
     padding: 12px 19px;
 }
 
@@ -1370,7 +1394,7 @@ button.product-card-button:active {
 .modal-title {
     margin: 0;
     margin-bottom: 64px;
-    font-family: 'PT Sans';
+    font-family: 'PT Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
